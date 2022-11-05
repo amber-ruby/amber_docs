@@ -38,7 +38,8 @@ exclude: [
   "bin/",
   "README.md",
   "Rakefile" ,
-  "docs/tests/"
+  "docs/tests/",
+  "Capfile"
 ]
 
 # Regression tests
