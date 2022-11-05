@@ -6,7 +6,7 @@
 
 ## install
 
-1. `bundle install`
+`bundle install`
 
 ## run:development
 
@@ -15,9 +15,8 @@
 
 ## build for production
 
-1. `jekyll build`
+`jekyll build`
 
 ## Deploy
 
-1. `jekyll build` - build for production
-2. `cap production deploy` - deploy on ambercomponent.com
+`cap production deploy:with_build` - deploy on ambercomponent.com

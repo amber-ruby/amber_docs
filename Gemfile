@@ -15,6 +15,8 @@ gem 'webrick'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem 'minima', '~> 2.5'
 
+gem 'debug', '~> 1.6.3'
+
 # Deployment
 gem 'bcrypt_pbkdf'
 gem 'capistrano', '~> 3.17.1'
