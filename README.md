@@ -1,4 +1,4 @@
-![Amber Components](../banner.png "Amber Components")
+![Amber Components](./banner.png "Amber Components")
 
 # Docs
 
