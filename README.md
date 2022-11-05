@@ -17,3 +17,5 @@
 
 1. `jekyll build`
 2. `check`
+
+## Deploy
