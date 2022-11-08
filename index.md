@@ -42,7 +42,7 @@ end
 ### Usage: (anywhere in your app)
 
 ```erb
-<%= UserComponent.call name: 'John', email: 'john.doe@example.com', balance: 12.00 %>
+<%= user_component name: 'John', email: 'john.doe@example.com', balance: 12.00 %>
 ```
 *psst! - Haml, Markdown and Slim are also supported!*
 
