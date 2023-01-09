@@ -1,3 +1,7 @@
+set :branch, 'main'
+
+server 'ambercomponent.com', user: 'ambercomponent', roles: %w[app web]
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -6,18 +10,6 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-
-
-set :application_user, 'ambercomponent'
-set :user, 'ambercomponent'
-set :branch, 'main'
-set :rvm_ruby_version, '3.1.1@ambercomponent_docs --create'
-
-set :deploy_to, "/home/#{fetch(:application_user)}/www"
-set :tmp_dir,   "/tmp/#{fetch(:application_user)}"
-
-role :app, %w[ambercomponent@ambercomponent.com]
-role :web, %w[ambercomponent@ambercomponent.com]
 
 
 # role-based syntax

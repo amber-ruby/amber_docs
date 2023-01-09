@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+BIN_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cd $BIN_DIR/..
+
+bundle exec jekyll serve

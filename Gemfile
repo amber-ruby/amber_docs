@@ -20,8 +20,6 @@ gem 'debug', '~> 1.6.3'
 # Deployment
 gem 'bcrypt_pbkdf'
 gem 'capistrano', '~> 3.17.1'
-gem 'capistrano-jekyll', '~> 0.2.2'
-gem 'capistrano-rvm', '~> 0.1.2'
 gem 'ed25519', '~> 1.3.0'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
