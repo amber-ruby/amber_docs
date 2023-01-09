@@ -26,6 +26,7 @@ color_scheme: "amber_component"
 permalink: pretty
 exclude: [
   "node_modules/",
+  "config/",
   "*.gemspec",
   "*.gem",
   "Gemfile",
